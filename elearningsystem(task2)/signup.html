@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.Fg_P1293BTOHPplMYDl63wAAAA&pid=Api&P=0&h=220 " alt="Round image" class="roundimage">
+            <ul class="options">
+                <li><b><a href="index.html">Home</a></b></li>
+                <li><b><a href="about.html">About</a></b></li>
+                <li><b><a href="courses.html">Courses</a></b></li>
+                <li><b><a href="contact.html">Contact Us</a></b></li>
+                <li><b><a href="login.html">Login</a></b></li>
+                <li><b><a href="signup.html">Sign Up</a></b></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contactmain">
+        <div class="borderdark">
+            <form id="Form">
+            <span class="heading"><b>Create Account</b></span><br><br>
+            <input type="text" id="first" placeholder="First Name" required><br>
+            <input type="text" id="last" placeholder="Last Name" required><br>
+            <input type="text" id="father" placeholder="password" required><br>
+            <input type="email" id="email" placeholder="Email" required><br>
+            <input type="date" id="birth" placeholder="Date of Birth" ><br><br>
+            <div class="radioContainer">
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" required>
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" required>
+            </div><br>
+            <button type="submit" class="sent">SignUp</button>
+        </form>
+            <div class="message" id="Message">Account created successfully!</div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+  
+    
+</body>
+</html>
